@@ -14,7 +14,7 @@ TAG;
     if (isset($_SESSION['user_name'])) {
         echo "Hello " . $_SESSION['user_name'] . PHP_EOL;
     echo PHP_EOL . <<<TAG
-<a href="http://localhost:8000/exit.php">Выйти</a>
+<a href="https://sheltered-mountain-81196.herokuapp.com/exit.php">Выйти</a>
 TAG;
     } else {
         echo <<<TAG
